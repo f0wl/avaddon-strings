@@ -5,6 +5,8 @@ String Decrypter for Avaddon Ransomware
   <img src="images/avaddon-strings.png">
 </p>
 
+<br>
+
 ## How it works
 
 <br>
