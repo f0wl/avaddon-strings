@@ -95,6 +95,8 @@ func main() {
 		opts.OutFlag = "decrypted_strings.txt"
 	}
 
+	fmt.Printf("   [!] Visit https://github.com/f0wl/avaddon-strings for more Information\n\n")
+
 	// read first value from stdin
 	fmt.Printf("   [>] Please enter a value (e.g. 0x2) for the SUB operation: ")
 	var subVal string
