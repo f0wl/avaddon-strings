@@ -53,9 +53,10 @@ func decrypt(ciphertext string, sub string, xor string) (cleartext string) {
 	byteSlice := []byte(decodedCipher)
 
 	// convert base16 values to base10 for the sake of it
-	subKey, convErr := strconv.ParseUint(hexStr(sub), 16, 64)
-	xorKey, convErr := strconv.ParseUint(hexStr(xor), 16, 64)
-	check(convErr)
+	subKey, subErr := strconv.ParseUint(hexStr(sub), 16, 64)
+	check(subErr)
+	xorKey, xorErr := strconv.ParseUint(hexStr(xor), 16, 64)
+	check(xorErr)
 
 	counter := 0
 	for counter < len(byteSlice) {
