@@ -1,3 +1,5 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/f0wl/avaddon-strings)](https://goreportcard.com/report/github.com/f0wl/avaddon-strings)
+
 # avaddon-strings
 String Decrypter for Avaddon Ransomware
 
